@@ -11,7 +11,8 @@ const Detail = () => {
   const [dentistDetails, setDentistDetails] = useState(null);
   // Consumiendo el parametro dinamico de la URL deberan hacer un fetch a un user en especifico
   useEffect(() => {
-    // Fetch details for the specific dentist using the 'id' parameter
+
+    
     const fetchDentistDetails = async () => {
       try {
         const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
