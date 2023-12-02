@@ -1,0 +1,173 @@
+
+/* Global Styles */ 
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-block-size: 100vb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.favButton:hover{
+  background-color: rgb(141, 174, 205);
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+
+h1{
+  text-align: center;
+}
+
+/* Header  */
+
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: rgba(211, 211, 211, 0.716);
+  align-items: center;
+  
+}
+
+.nav-ul{
+  display: flex;
+  list-style-type: none;
+  gap:1.5rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+.back-to-top{
+    background-color: red;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer_ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+.icons{
+  width: 50px;
+  margin: 0;
+}
+footer > div > p > img{
+  width: 200px;
+  margin: 0;
+}
+footer > div > p{
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+/* FORM */
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* Card  */
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+}
+
+.card:hover{
+  border: 0.5px solid rgb(19, 100, 166);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 60vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark-mode{
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
